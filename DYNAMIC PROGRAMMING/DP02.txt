@@ -1,0 +1,13 @@
+1D DYNAMIC PRORAMMING
+IDENTIFICATION: Count the total number of ways / min or max output of the many ways possible to do something
+    1. Try all possible ways
+    2. Count possible ways
+    3. Find out min/max of all possible ways based on some parameter
+
+SOLUTION:
+    1. Represent problem in terms of indexes
+    2. Do all possible stuff on the index according to problem statement
+    3. If question says
+        a. count: sum up all stuff
+        b. min: find min of all stuff
+        c. max: find max of all stuff
