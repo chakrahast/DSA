@@ -1,0 +1,20 @@
+How to initialize an array?
+
+<write various forms of initization>
+
+1. When we initialize an array inside a function locally, it gets garbage values. MAX_SIZE = 10^6
+2. When we initialize a global array, it is filled with zeroes. MAX_SIZE = 10^7
+3. Array indexing is from 0 to n-1 if size is n.
+
+PRINT AN ARRAY
+for (i = 0; i<n; i++){
+    cout << arr[i];
+}
+
+WHAT HAPPENS IN COMPUTER MEMORY?
+1. A contigous series of block is allocated. First block address is randomly chosen from few space. 
+2. Next few blocks are stored at address x+i, x+2i, x+3i and so on where i is the size of each block. (depends on data type)
+
+SPACE COMPLEXITY
+1. There is some space that problem comes with, space complexity we see the extra space that we are using.
+
